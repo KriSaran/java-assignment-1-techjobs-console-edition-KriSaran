@@ -8,7 +8,7 @@ For [this assignment](https://education.launchcode.org/java-web-development/assi
 2. Create the `findByValue` method
 3. Make search methods `Case-Insensitive`
 
-## Unit Tests 
+## Unit Tests
 
 The starter code contains unit tests and text files. There is one test class that contains 4 tests. These tests compare students' output to the text files.  
 
@@ -116,5 +116,6 @@ Submission cannot be graded on unit tests alone. Use the section below as a guid
    ```   
 
 ## Submitting Your Work
+
 
 To submit your work please follow the [Submission Instructions](https://education.launchcode.org/java-web-development/assignments/hello-world.html#submitting-your-work).
