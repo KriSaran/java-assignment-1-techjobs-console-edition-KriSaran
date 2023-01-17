@@ -6,7 +6,7 @@ import java.io.FileReader;
 import java.io.IOException;
 import java.io.Reader;
 import java.util.*;
-
+//Updated
 /**
  * Created by LaunchCode
  */
@@ -57,7 +57,6 @@ public class JobData {
     /**
      * Returns results of search the jobs data by key/value, using
      * inclusion of the search term.
-     *
      * For example, searching for employer "Enterprise" will include results
      * with "Enterprise Holdings, Inc".
      *
@@ -96,17 +95,17 @@ public class JobData {
         loadData();
 
         ArrayList<HashMap<String, String>> printValue = new ArrayList<>();
-        boolean tResult=false;
+        boolean valueResult=false;
         for(HashMap<String,String> temp : allJobs){
            Collection<String> caseSensitive= temp.values();
            for(String str:caseSensitive){
                if(str.toLowerCase().contains(value.toLowerCase())){
-                   tResult=true;
+                   valueResult=true;
                }
            }
-            if(tResult==true){
+            if(valueResult==true){
                 printValue.add(temp);
-                tResult=false;
+                valueResult=false;
             }
         }
        return printValue;
